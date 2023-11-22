@@ -1,7 +1,7 @@
+import { useContext, useState } from 'react';
 import Link from 'next/link';
 import styled from 'styled-components';
 import Center from './Center';
-import { useContext, useState } from 'react';
 import { CartContext } from './CartContext';
 import BurgerIcon from './icons/Burger';
 
@@ -68,10 +68,10 @@ export default function Header() {
         <Wrapper>
           <Logo href={'/'}>Ecommerce</Logo>
           <StyledNav $mobileNavigationActive={mobileNavigationActive}>
-            <NavLink href={'/'}>Acceuil</NavLink>
+            <NavLink href={'/'}>Accueil</NavLink>
             <NavLink href={'/produits'}>Tous les produits</NavLink>
             <NavLink href={'/categories'}>Catégories</NavLink>
-            <NavLink href={'/compte'}>Compte</NavLink>
+            {/* <NavLink href={'/compte'}>Compte</NavLink> */}
             <NavLink href={'/panier'}>Panier ({cartProducts.length})</NavLink>
           </StyledNav>
           <NavButton onClick={() => setMobileNavigationActive((prev) => !prev)}>
