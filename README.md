@@ -1,38 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛍️ E-Commerce Vitrine 🛒
 
-## Getting Started
+## Description
 
-First, run the development server:
+Bienvenue sur ce projet, il s'agit d'un site vitrine dédié au commerce en ligne. Ce projet a été créé dans le but d'explorer le domaine du commerce électronique et de mettre en avant des produits. Même s'il peut sembler simple à première vue, il m'a offert une opportunité d'expérimenter diverses technologies. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+**Liens vers le panneau d'Administration :** [E-Commerce Administration](https://ecommerce-vitrine.vercel.app/)  
+Prévoir quelques ralentissement dû à la gratuité des services d'hébergement utilisés.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Fonctionnalités
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Mise en avant d'un produit sur la page d'accueil.
+- Page de description détaillée d'un produit.
+- Liste variée de produits.
+- Fonctionnalité de panier.
+- Achat grâce à l'API de Stripe.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Technologies Utilisées
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- ReactJS ⚛️
+- NextJS 🚀
+- Styled Components 💅
+- Stripe 💳
+- Mongoose 🍃
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Aperçu
 
-## Learn More
+Homepage :
+![screen_ecommerce_vitrine](./apercu/screen_ecommerce_vitrine.png)
+Panier :
+![screen_ecommerce_vitrine_panier](./apercu/screen_ecommerce_vitrine_panier.png)
+Un produit :
+![screen_ecommerce_vitrine_un_produit](./apercu/screen_ecommerce_vitrine_un_produit.png)
+Tous les produits :
+![screen_ecommerce_vitrine_tous_les_produits](./apercu/screen_ecommerce_vitrine_tous_les_produits.png)
 
-To learn more about Next.js, take a look at the following resources:
+## Essai d'Achat
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+N'hésitez pas à essayer l'expérience d'achat avec la Carte Bancaire de test :
+ 💸 `4242 4242 4242 4242` 💸
